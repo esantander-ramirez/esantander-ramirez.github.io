@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Eduardo Santander-Ramírez, Head of Institutional Research at Universidad Gabriela Mistral. Research on higher education policy and finance, student success and first-year retention in Chile and Latin America.">
+<meta name="author" content="Eduardo Santander-Ramírez">
+<meta property="og:title" content="Eduardo Santander-Ramírez">
+<meta property="og:image" content="photo.jpg">
+<style>body{margin:0}img{max-width:100%}</style>
+<title>Eduardo Santander-Ramírez</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: classic academic homepage, photo and contact on the left, plain reading column on the right; single light look on white. */
+:root{
+  --bg:#ffffff; --fg:#222222; --muted:#666666; --line:#e6e6e6; --link:#1a4f8b;
+  --font:"Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:17px;line-height:1.6;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+
+.wrap{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:56px;padding-block:56px 80px}
+
+.id{position:sticky;top:calc(env(safe-area-inset-top, 0px) + 40px);align-self:start;display:flex;flex-direction:column;gap:18px}
+.photo{width:200px;max-width:100%;height:auto;display:block;border-radius:2px}
+.name{font-weight:600;font-size:26px;line-height:1.2;margin:0;text-wrap:balance}
+.role{margin:4px 0 0;color:var(--muted);font-size:15px;line-height:1.45}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+nav a{display:block;padding:2px 0;font-size:16px}
+.contact{font-size:15px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.contact .email{color:var(--fg);user-select:all;word-break:break-all}
+.links{display:flex;gap:14px;flex-wrap:wrap}
+
+main{min-width:0;display:flex;flex-direction:column;gap:48px}
+section{scroll-margin-top:24px}
+h2{font-weight:600;font-size:24px;margin:0 0 16px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-weight:600;font-size:18px;margin:0 0 8px}
+.prose p{max-width:68ch;margin:0 0 14px}
+
+.group{margin-bottom:28px}
+.paper{padding:8px 0;max-width:72ch}
+.ptitle{margin:0;font-weight:600;line-height:1.4}
+.meta{font-size:15.5px;color:var(--muted);margin:0}
+.meta i{color:var(--fg)}
+.badge{color:var(--muted)}
+.badge::before{content:"["}.badge::after{content:"] "}
+.actions{font-size:15.5px}
+
+.cvtop{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+.cvblock{margin-top:20px}
+.cvblock h4{font-weight:600;font-size:18px;margin:0 0 6px}
+.row{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;padding:3px 0;font-size:16px}
+.row .yr{color:var(--muted);font-variant-numeric:tabular-nums}
+.row b{font-weight:600}
+.row span{color:var(--muted)}
+
+.fullcv summary{cursor:pointer;color:var(--link)}
+.fullcv .pages{display:flex;flex-direction:column;gap:16px;margin-top:16px}
+.fullcv img{width:100%;max-width:720px;height:auto;border:1px solid var(--line)}
+footer{color:var(--muted);font-size:14px}
+
+@media (max-width:760px){
+  .wrap{grid-template-columns:minmax(0,1fr);gap:36px;padding-block:28px 56px}
+  .id{position:static;display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px 18px;align-items:center}
+  .photo{width:110px}
+  nav,.contact{grid-column:1/-1}
+  nav ul{flex-direction:row;flex-wrap:wrap;gap:4px 18px}
+  .row{grid-template-columns:72px minmax(0,1fr);gap:12px}
+}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <aside class="id">
+    <img class="photo" id="photo" src="photo.jpg" alt="Eduardo Santander-Ramírez" width="600" height="750">
+    <div class="who">
+      <h1 class="name">Eduardo Santander-Ramírez</h1>
+      <p class="role">Head of Institutional Research<br>Universidad Gabriela Mistral · Santiago, Chile</p>
+    </div>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </nav>
+    <div class="contact">
+      <div class="email">efs2158@tc.columbia.edu</div>
+      <div class="links">
+        <a href="https://orcid.org/0000-0001-5821-5424" target="_blank" rel="noopener">ORCID</a>
+        <a href="#full-cv" id="cvlink">Full CV</a>
+        <a href="Santander-Ramirez_CV.pdf">CV (PDF)</a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+            <div class="prose">
+        <p>I am Head of Institutional Research at Universidad Gabriela Mistral in Santiago, Chile. I hold a Ph.D. in Higher and Postsecondary Education from Teachers College, Columbia University, and an M.A. and B.A. in Sociology from the Pontificia Universidad Católica de Chile.</p>
+        <p>My research covers higher education policy and finance, the sociology of finance and of university organizations, student success and first-year retention, and equity in postsecondary systems, with a focus on Chile and Latin America. My dissertation links institutional finances to first-year retention across Chilean higher education from 2017 to 2024. I work mainly with institutional panel data, hierarchical and growth models, and program evaluation.</p>
+        <p>Before and during my doctoral studies, I worked in institutional research, accreditation and student progression at Universidad Diego Portales, Universidad de las Américas and Universidad Finis Terrae, and in student life at Columbia University. I am an Editorial Associate at <i>Teachers College Record</i> and teach graduate courses at Universidad Diego Portales.</p>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <div class="group">
+        <h3>Dissertation</h3>
+        <article class="paper">
+          <p class="ptitle">From Balance Sheets to Student Outcomes: Institutional Finances and First-Year Retention in Chilean Higher Education, 2017–2024</p>
+          <p class="meta">Ph.D. dissertation, Teachers College, Columbia University, 2026</p>
+        </article>
+      </div>
+
+      <div class="group">
+        <h3>Peer-reviewed articles</h3>
+        <article class="paper">
+          <p class="ptitle">The other side of free: Institutional finance and the limits of demand-side policy in Chilean higher education</p>
+          <p class="meta"><span class="badge">WoS Q1</span><i>Higher Education Policy</i>, 2026. Advance online publication.</p>
+          <div class="actions"><a href="https://doi.org/10.1057/s41307-026-00489-5" target="_blank" rel="noopener">DOI</a></div>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Lost in translation: How higher education studies conflates Latinx and international Latin American experiences through misplaced racialization</p>
+          <p class="meta"><i>Journal of Comparative &amp; International Higher Education</i>, 2026, 18(5)</p>
+          <div class="actions"><a href="https://digitalcommons.lib.uconn.edu/jcihe/vol18/iss5" target="_blank" rel="noopener">Issue</a></div>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Growth in doctoral-qualified professoriate in Chilean higher education (2008–2024): A hierarchical linear growth model</p>
+          <p class="meta"><span class="badge">Scopus Q3</span><i>Pensamiento Educativo</i>, 2026, 63(2), 1–14</p>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Unpacking the black box of first-year college attainment: Evidence from a flagship regional university in Chile</p>
+          <p class="meta"><span class="badge">Scopus Q2</span><i>Education Policy Analysis Archives</i>, 2026, 34 · with J. Fariña and P. Sotomayor</p>
+          <div class="actions"><a href="https://doi.org/10.14507/epaa.34.8997" target="_blank" rel="noopener">DOI</a></div>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Does parents’ socioeconomic status determine their willingness to participate in their offspring’s education? A study in students who attend primary education in Chile</p>
+          <p class="meta"><i>Revista Andina de Educación</i>, 2022, 6(1), Article 000613 · with M. Avendaño Casassas and P. Soto de la Cruz</p>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Does a greater number of migrant children make the practices of early childhood educators more inclusive? A case study in public kindergartens in Chile</p>
+          <p class="meta"><i>Revista Boliviana de Educación</i>, 2022, 4(7), 48–65 · with Y. Muñoz, M. J. Fernández and P. Soto de la Cruz</p>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Implicit learning representations and pedagogical practice of early childhood teacher educators: A case study in a private Catholic university in Chile</p>
+          <p class="meta"><i>Revista Peruana de Investigación Educativa</i>, 2022, 14(16), 9–35 · with M. Avendaño Casassas, S. Parada and P. Soto de la Cruz</p>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Nursing technicians in Chile: A competency-based analysis of training profiles</p>
+          <p class="meta"><span class="badge">Scopus Q4</span><i>Revista Médica de Chile</i>, 2021, 149(6), 829–835 · with F. Valdebenito-Acosta, J. Hasbún-Mancilla and P. Gallardo</p>
+        </article>
+        <article class="paper">
+          <p class="ptitle">Parents’ socialization of values in contemporary Chile: How do social class and parents’ religion shape how they raise their children?</p>
+          <p class="meta"><span class="badge">Scopus Q2</span><i>Apuntes</i>, 2019, 87, 65–86 · with Ll. Berríos, P. Soto de la Cruz and M. Avendaño</p>
+        </article>
+      </div>
+
+      <div class="group">
+        <h3>Under review</h3>
+        <article class="paper"><p class="ptitle">Lever or marker? Institutional financial condition and first-year retention in Chilean higher education, 2017–2024</p><p class="meta"><i>Higher Education</i></p></article>
+        <article class="paper"><p class="ptitle">Accreditation, financial distress, and institutional exit in Chilean higher education, 2017–2024</p><p class="meta"><i>Quality Assurance in Education</i> · with P. Leihy</p></article>
+        <article class="paper"><p class="ptitle">When revenue falls, who absorbs the cut? Compensation adjustment dynamics in Chilean higher education, 2017–2024</p><p class="meta"><i>Financial Accountability &amp; Management</i></p></article>
+        <article class="paper"><p class="ptitle">Who captures free tuition? Institutional selectivity, per-student subsidies, and the distributive limits of Chile’s Gratuidad policy</p><p class="meta"><i>Journal of Tertiary Education and Management</i></p></article>
+        <article class="paper"><p class="ptitle">Counting the first year: Student success outcomes as economization and commensuration</p><p class="meta"><i>Studies in Higher Education</i></p></article>
+        <article class="paper"><p class="ptitle">Converging on a template: Mimetic isomorphism in Chilean university research incentives</p><p class="meta"><i>Policy Reviews in Higher Education</i></p></article>
+        <article class="paper"><p class="ptitle">Two roads from the institution to the student: A dual-pathway framework for organizational influence on college persistence</p><p class="meta"><i>Journal of Hispanic Higher Education</i></p></article>
+        <article class="paper"><p class="ptitle">Scoring without reasons: Administrative immunization and borrowed excellence in Chile’s Becas Chile scholarship</p><p class="meta"><i>Minerva</i></p></article>
+      </div>
+
+      <div class="group">
+        <h3>Conference presentations</h3>
+        <article class="paper"><p class="ptitle">¿Quién paga la cuenta? Administrative bloat y ajuste salarial en la educación superior chilena, 2017–2024</p><p class="meta">CIIE 2026, Séptimo Congreso Interdisciplinario de Investigación en Educación, Santiago, October 2026</p></article>
+        <article class="paper"><p class="ptitle">Unpacking the black box of first-year college attainment: Evidence from a flagship regional university in Chile</p><p class="meta">Comparative and International Education Society (CIES), Chicago, 2025</p></article>
+        <article class="paper"><p class="ptitle">Progress over retention: Understanding drivers of credit attainment in the first college year in a flagship regional university in Chile</p><p class="meta">Association for Education Finance and Policy (AEFP), 49th Annual Conference, Baltimore, 2024</p></article>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <p style="margin:0 0 16px;max-width:68ch">Teaching areas: quantitative methods and statistics, higher education policy and finance, economic management of educational institutions, sociology of education, and student success.</p>
+      <div class="cvblock" style="margin-top:0">
+        <h4>Graduate</h4>
+        <div class="row"><div class="yr">2026</div><div><b>Economic Management in Educational Institutions</b> · M.A. in Education, Universidad Diego Portales</div></div>
+        <div class="row"><div class="yr">2026</div><div><b>The Politics of Research Methods</b> · M.A. in Research Methods, Universidad Diego Portales</div></div>
+        <div class="row"><div class="yr">2018</div><div><b>Quantitative Research Methodology</b> · M.A. in Education, Universidad Santo Tomás</div></div>
+      </div>
+      <div class="cvblock">
+        <h4>Undergraduate</h4>
+        <div class="row"><div class="yr">2020</div><div><b>Statistics and Quantitative Methodology</b> · Faculty of Humanities, Universidad Mayor</div></div>
+        <div class="row"><div class="yr">2017–18</div><div><b>Statistics IV; Social Surveys</b> · Family Sciences, Universidad Finis Terrae</div></div>
+        <div class="row"><div class="yr">2015–20</div><div><b>Foundations of Statistics; Quantitative Research Methodology</b> · Psychology, Universidad UNIACC</div></div>
+      </div>
+      <div class="cvblock">
+        <h4>Teaching assistance &amp; supervision</h4>
+        <div class="row"><div class="yr">2026</div><div>Master’s thesis advisor, evaluation of the PACE program in Veterinary Medicine, Universidad Católica de Temuco <span>(M.A. in Education, Universidad Gabriela Mistral)</span></div></div>
+        <div class="row"><div class="yr">2023–24</div><div>Course Assistant, <i>The American College Student</i> <span>(Dr. Staci Ripkey), Teachers College, Columbia University</span></div></div>
+      </div>
+    </section>
+
+    <section id="cv">
+      <h2>CV</h2>
+      <details id="full-cv" class="fullcv">
+        <summary>View full CV</summary>
+        <div class="pages">
+        <img src="cvpage-1.png" alt="CV page 1" loading="lazy">
+        <img src="cvpage-2.png" alt="CV page 2" loading="lazy">
+        <img src="cvpage-3.png" alt="CV page 3" loading="lazy">
+        <img src="cvpage-4.png" alt="CV page 4" loading="lazy">
+        <img src="cvpage-5.png" alt="CV page 5" loading="lazy">
+        </div>
+      </details>
+
+      <div class="cvblock">
+        <h4>Education</h4>
+        <div class="row"><div class="yr">2026</div><div><b>Ph.D., Higher and Postsecondary Education</b> · Teachers College, Columbia University</div></div>
+        <div class="row"><div class="yr">2026</div><div><b>M.Phil., Organization and Leadership</b> · Columbia University</div></div>
+        <div class="row"><div class="yr">2023</div><div><b>M.A., Higher and Postsecondary Education</b> · Teachers College, Columbia University</div></div>
+        <div class="row"><div class="yr">2015</div><div><b>M.A., Sociology</b> · Pontificia Universidad Católica de Chile</div></div>
+        <div class="row"><div class="yr">2012</div><div><b>B.A., Sociology</b> · Pontificia Universidad Católica de Chile<br><span>Professional title of Sociologist, 2015. Minors in Political Science and Education</span></div></div>
+        <div class="row"><div class="yr">2022</div><div>Certificate in Quality Assurance in Higher Education · Universidad de Chile</div></div>
+      </div>
+
+      <div class="cvblock">
+        <h4>Professional appointments</h4>
+        <div class="row"><div class="yr">2026–</div><div><b>Head of Institutional Research</b> · Universidad Gabriela Mistral</div></div>
+        <div class="row"><div class="yr">2026</div><div><b>Adjunct Instructor (graduate)</b> · Universidad Diego Portales</div></div>
+        <div class="row"><div class="yr">2023–24</div><div><b>Student Life Coordinator</b> · School of Professional Studies, Columbia University</div></div>
+        <div class="row"><div class="yr">2020–22</div><div><b>Academic Progression Analyst</b> · Universidad Diego Portales</div></div>
+        <div class="row"><div class="yr">2018–19</div><div><b>Senior Accreditation Analyst</b> · Universidad de las Américas</div></div>
+        <div class="row"><div class="yr">2017–19</div><div><b>Institutional Research Analyst</b> · Universidad Finis Terrae</div></div>
+      </div>
+
+      <div class="cvblock">
+        <h4>Grants, fellowships &amp; awards</h4>
+        <div class="row"><div class="yr">2024, 25</div><div>Provost’s Grant for Conference Presentation &amp; Professional Development, Teachers College</div></div>
+        <div class="row"><div class="yr">2024</div><div>Dean’s Student Research Award, Teachers College</div></div>
+        <div class="row"><div class="yr">2024</div><div>Anna Neumann Supporting Student Research Award, Teachers College</div></div>
+        <div class="row"><div class="yr">2023</div><div>Roland DeLano Rinsland Scholar, Teachers College</div></div>
+        <div class="row"><div class="yr">2022, 24</div><div>ANID Scholarship for Master’s and Doctoral Studies Abroad, Government of Chile</div></div>
+        <div class="row"><div class="yr">2014</div><div>CONICYT National Graduate Scholarship, Government of Chile</div></div>
+        <div class="row"><div class="yr">2014</div><div>Graduate Studies Scholarship, Fundación Volcán Calbuco</div></div>
+        <div class="row"><div class="yr">2010, 11</div><div>Award for Highest GPA, School of Sociology, Pontificia Universidad Católica de Chile</div></div>
+      </div>
+
+      <div class="cvblock">
+        <h4>Service</h4>
+        <div class="row"><div class="yr">2023–</div><div>Editorial Associate, <i>Teachers College Record</i></div></div>
+      </div>
+
+      <div class="cvblock">
+        <h4>Methods &amp; languages</h4>
+        <div class="row"><div class="yr">Methods</div><div>Regression, hierarchical linear and growth models, institutional panel data, program evaluation, policy analysis</div></div>
+        <div class="row"><div class="yr">Software</div><div>Stata and SPSS (advanced), HLM, R, NVivo, Atlas.ti</div></div>
+        <div class="row"><div class="yr">Languages</div><div>Spanish (native), English (C1), French (B2)</div></div>
+      </div>
+    </section>
+
+    <footer>Last updated November 2026</footer>
+  </main>
+</div>
+<script>
+document.getElementById('cvlink').addEventListener('click',function(){document.getElementById('full-cv').open=true});
+if(location.hash==='#full-cv'){document.getElementById('full-cv').open=true}
+</script>
+
+
+
+</body>
+</html>
